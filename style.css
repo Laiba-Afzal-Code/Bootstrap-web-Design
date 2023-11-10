@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    /* color: black; */
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head::after{
+    background-color: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#header{
+    background-color: #e74c3c;
+    color: white;
+}
+h1 #logo{
+    font-size: 2em;
+    padding-bottom: 0;
+}
+#logo{
+    cursor: pointer;
+}
+#manu li{
+    padding-left: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+#manu li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#manu li a:hover{
+    background-color: #c0392b;
+}
+ul{
+    float: right;
+}
+#banner{
+    background-image: url('img/banner1.avif');
+    height: 400px;
+    background-size: cover;
+}
+#banner-title{
+margin-top: 205px;
+}
+.title{
+    background-color: rgba(255,255, 255,0.8);
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}.pera{
+    color: white;
+    background-color: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+.services-box{
+    text-align: center;
+}
+.services-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+#testimonials{
+    background-color: white;
+    color: white;
+    background-image: url('img/backmen.avif');
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 a{
+    text-decoration: none;
+    color: #e74c3c;
+}
+.Readmore{
+    color: #e74c3c;
+    text-decoration: none;
+}
+.Readmore:hover{
+    font-weight: bold;
+}
+#footer-sidebar{
+    background-color: #59636e;
+    color: white;
+}
+.footer-width h4::after{
+    content: "";
+    background-color: white;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer-width h4:hover{
+color: #b8382a ;
+}
+.footer-width a{
+    color: white;
+    text-decoration: none;
+    padding-left: 0px;
+}
+.latest-text li a{
+ position: relative;
+ right: 60px;
+}
+ .latest-text li a::before{
+content:"\f101";
+font-family: FontAwsome;
+padding-right: 5px;
+}
+#footer{
+    background-color: #3d4d5d;
+    color: white;
+    cursor: pointer;
+}
+
+#social-icon{
+    display: flex;
+  margin-left: 7px;
+}
+#social-icon li a{
+    margin: 0px 9px;
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#social-icon li a.fa-brands{
+    color: white;
+
+}
+@media (max-width: 770px) {
+    #logo{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #manu{
+        text-align: center;
+        float: none;
+        font-size: 1em;
+    }
+    #banner-title{
+        margin-top: 100px;
+    }
+    .textimonials{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #footer{
+        text-align: center;
+    }
+    #social-icon{
+        justify-content: center;
+        float:none;
+    }
+    
+}
+
